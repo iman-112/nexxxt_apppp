@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-center mt-10">
-          © 2022 All Rights Reserved By CansCovan
+          © 2022 All Riights Reserved By CansCovan
         </p>
       </div>
     </div>
