@@ -4,7 +4,7 @@ import { TbArrowMerge } from 'react-icons/tb'
 
 const Logo = () => {
   return (
-    <Link href="/" className='text-[2rem] font-caveot font-bold'>CansCovan</Link>
+    <Link href="/" className='text-[2rem] font-caveot font-bold'>CansWeb</Link>
      
   )
 }

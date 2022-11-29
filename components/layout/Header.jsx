@@ -5,7 +5,7 @@ import Search from "../ui/Search"
 import { GiCancel, GiHamburgerMenu } from "react-icons/gi"
 import { useRouter } from "next/router"
 import Link from "next/link"
-
+import {FaWhatsapp} from "react-icons/fa"
 const Header = () => {
 const [isSearchModal, setIsSearchModal] = useState(false);
 const [isMenuModal, setIsMenuModal] = useState(false);
@@ -25,16 +25,16 @@ const router = useRouter();
         >
           <ul className="flex gap-x-2 sm:flex-row flex-col items-center justify-end text-white">
           <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer">
-            <Link href="/" className="text-lg">Ana Səhifə</Link>
+            <Link href="/" className="text-[15px]">Ana Səhifə</Link>
             </li>
             <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer" >
-            <Link href="/menu "className="text-lg" >Xidmətlər</Link>
+            <Link href="/menu "className="text-[15px]" >Xidmətlər</Link>
             </li>
             <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer" >
-            <Link href="/about" className="text-lg">Haqqımızda</Link>
+            <Link href="/about" className="text-[15px]">Haqqımızda</Link>
             </li  >
             <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer">
-            <Link href="/contact "className="text-lg">əlaqə</Link>
+            <Link href="/contact "className="text-[15px]">əlaqə</Link>
             </li>
           </ul>
           {isMenuModal && (
@@ -53,13 +53,16 @@ const router = useRouter();
           <button onClick={() => setIsSearchModal(true)}>
             <FaSearch className="hover:text-hover transition-all cursor-pointer"  />
           </button>
-          <a href="#" className="md:inline-block hidden">
-            <button className="btn-primary">Tələb et</button>
-          </a>
+          <Link href="https://api.whatsapp.com/send?phone=994773114834&text=Salam%20.%20" target="_blank" className="md:inline-block hidden ">
+            <button className="btn-primary flex">
+              <FaWhatsapp className="mr-2 mt-[2px] bg-green-500 text-white rounded-full" size={20}/>
+              
+              Tələb et</button>
+          </Link>
           <button className="sm:hidden inline-block" onClick={() => setIsMenuModal(true)}>
             <GiHamburgerMenu  className="text-xl hover:text-hover transition-all"/>
           </button>
-  
+          <span className="text-xs text-slate-400 pointer-events-none">v1.1</span>
         </div>
      </div>
       {isSearchModal &&   (
