@@ -43,7 +43,7 @@ const Customers = () => {
   };
   return (
     <div className="container mx-auto mb-20 mt-12">
-      <Title addClass="text-[45px]  text-center"> Müştəri fikirləri</Title>
+      <Title addClass="text-[45px]  text-center text-primary"> Müştəri fikirləri</Title>
 
       <Slider {...settings}>
         <CustomerItem />

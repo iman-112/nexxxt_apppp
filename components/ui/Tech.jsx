@@ -1,8 +1,10 @@
 import Title from "./Title";
-import { DiReact, DiHtml5, DiCss3, DiJavascript1 } from "react-icons/di";
+import { DiReact, DiHtml5, DiCss3, DiJavascript1,DiVisualstudio ,DiGitBranch} from "react-icons/di";
 import {TbBrandNextjs ,TbBrandTailwind} from "react-icons/tb"
 import Slider from "react-slick";
-import { SiFirebase } from "react-icons/si";
+import { SiFirebase ,SiCanva, SiAdobe} from "react-icons/si";
+import {FaLaravel} from "react-icons/fa"
+
 
 const Tech = () => {
   const settings = {
@@ -13,13 +15,13 @@ const Tech = () => {
     slidesToScroll: 4,
     arrows:false,
     autoplay:true,
-    autoplaySpeed:2000,
+    autoplaySpeed:10000,
   };
   return (
     <div className="  mb-12 mt-12 container mx-auto p-4 scrollbar gap   bg-primary text-white rounded">
       <Title addClass="text-[30px]  text-center">
         {" "}
-        Istifade etdiyimiz Texnologiyalar
+       İstifadə edilən texnologiyalar
       </Title>
       <div className=" ">
         <Slider {...settings}>
@@ -27,8 +29,8 @@ const Tech = () => {
             <div className=" flex p-4 mx-8 ">
               {" "}
               <span className="text-white text-md font-bold relative ">
-                <DiReact size={70} />
-                <p className="absolute bottom_-_10 left-2">React</p>
+                <DiReact size={70} className="text-hover" />
+                <p className="absolute bottom_-_5 left-2">React</p>
               </span>
             </div>
           </div>
@@ -36,7 +38,7 @@ const Tech = () => {
           <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
             <div className=" flex p-4 mx-8 ">
               <span className="text-white text-md font-bold relative ">
-                <DiJavascript1 size={70} />
+                <DiJavascript1 size={70} className="text-yellow-500"/>
                 <p className="absolute bottom_-_10 left-2">Javascript</p>
               </span>
             </div>
@@ -44,7 +46,7 @@ const Tech = () => {
           <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
       <div className=" flex p-4 mx-8 ">
       <span className="text-white text-md font-bold relative ">
-          <DiHtml5  size={70} />
+          <DiHtml5  size={70} className="text-red-500"/>
           <p className="absolute bottom_-_10 left-2">HTML</p>
 
         </span>
@@ -54,8 +56,8 @@ const Tech = () => {
     <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
       <div className=" flex p-4 mx-8 ">
       <span className="text-white text-md font-bold relative ">
-          <DiCss3  size={70} />
-          <p className="absolute bottom_-_10 left-2 ">CSS</p>
+          <DiCss3  size={70} className="text-blue-500"/>
+          <p className="absolute bottom_-_10 left-5 ">CSS</p>
 
         </span>
 
@@ -64,8 +66,8 @@ const Tech = () => {
     <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
       <div className=" flex p-4 mx-8 ">
       <span className="text-white text-md font-bold relative ">
-          <SiFirebase  size={70} />
-          <p className="absolute bottom_-_10 left-2">Firebase</p>
+          <FaLaravel  size={70} className="text-red-800" />
+          <p className="absolute bottom_-_10 left-2">Laravel</p>
 
         </span>
 
@@ -74,7 +76,7 @@ const Tech = () => {
     <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
       <div className=" flex p-4 mx-8 ">
       <span className="text-white text-md font-bold relative ">
-          <TbBrandNextjs  size={70} />
+          <TbBrandNextjs  size={70} className="text-black"/>
           <p className="absolute bottom_-_10 left-2">NextJs</p>
 
         </span>
@@ -84,8 +86,8 @@ const Tech = () => {
     <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
       <div className=" flex p-4 mx-8 ">
       <span className="text-white text-md font-bold relative ">
-          <TbBrandTailwind  size={70} />
-          <p className="absolute bottom_-_10 left-2">TailwindCss</p>
+          <TbBrandTailwind  size={70} className="text-blue-800" />
+          <p className="absolute bottom_-_10 left-0">TailwindCss</p>
 
         </span>
 
@@ -94,7 +96,17 @@ const Tech = () => {
     <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
       <div className=" flex p-4 mx-8 ">
       <span className="text-white text-md font-bold relative ">
-          <SiFirebase  size={70} />
+          <SiCanva  size={70} className="text-indigo-500" />
+          <p className="absolute bottom_-_10 left-2">Canva</p>
+
+        </span>
+
+      </div>
+    </div>
+    <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
+      <div className=" flex p-4 mx-8 ">
+      <span className="text-white text-md font-bold relative ">
+          <SiFirebase  size={70} className="text-yellow-300"/>
           <p className="absolute bottom_-_10 left-2">Firebase</p>
 
         </span>
@@ -104,14 +116,33 @@ const Tech = () => {
     <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
       <div className=" flex p-4 mx-8 ">
       <span className="text-white text-md font-bold relative ">
-          <SiFirebase  size={70} />
-          <p className="absolute bottom_-_10 left-2">Firebase</p>
+          <SiAdobe  size={70} className="text-red-600"/>
+          <p className="absolute bottom_-_10 left-2">Adobe</p>
 
         </span>
 
       </div>
     </div>
+    <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
+      <div className=" flex p-4 mx-8 ">
+      <span className="text-white text-md font-bold relative ">
+          <DiVisualstudio  size={70} className="text-sky-300"/>
+          <p className="absolute bottom_-_10 left-2">V.S.Code</p>
 
+        </span>
+
+      </div>
+    </div>
+    <div className="bg-primary  rounded-md py-5 px-[15px ] flex text-center">
+      <div className=" flex p-4 mx-8 ">
+      <span className="text-white text-md font-bold relative ">
+          <DiGitBranch  size={70} className="text-orange-800"/>
+          <p className="absolute bottom_-_10 left-5">Git</p>
+
+        </span>
+
+      </div>
+    </div>
         </Slider>
       </div>
     </div>

@@ -83,7 +83,7 @@ const Reservation = () => {
     <div className="container mx-auto py-12">
       <div >
       <form onSubmit={handleSubmit} className="text-center">
-        <Title addClass="text-[40px] mb-10"> Istək göndər </Title>
+        <Title addClass="text-[40px] mb-10 text-primary"> Istək göndər </Title>
         <div className="w-80 lg:w-2/4 mx-auto flex flex-col gap-y-3 " >
          {inputs.map((input) => (
           <Input key={input.id} {...input} onChange={handleChange} onBlur={handleBlur} />
