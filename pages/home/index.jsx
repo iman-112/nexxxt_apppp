@@ -4,20 +4,22 @@ import Footer from '../../components/layout/Footer'
 import Reservation from '../../components/Reservation'
 import ServiceWrapper from '../../components/Services/ServiceWrapper'
 import About from '../../components/ui/About'
-import Campaigns from '../../components/ui/Campaigns'
+
 import Carousel from '../../components/ui/Carousel'
+import Tech from '../../components/ui/Tech'
 
 
 const Index = () => {
   return (
     <React.Fragment  >
     <Carousel />
-    <Campaigns />
-    <ServiceWrapper />
+    <Tech />
     <About />
+    <ServiceWrapper />
+    
     <Reservation />
     <Customers />
- 
+   
     </React.Fragment>
   )
 }
