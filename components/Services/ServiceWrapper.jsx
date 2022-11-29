@@ -10,7 +10,7 @@ const ServiceWrapper = () => {
         <Title addClass="text-center mb-5 uppercase text-[35px] font-bold text-primary "  > Xidmətlərimiz </Title>
         <div >
             <p className='text-center text-sm text-gray-600 px-3'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, dignissimos accusantium? Rem sint vero placeat recusandae voluptate vitae inventore ipsa id commodi deserunt sequi, culpa accusantium repudiandae! Quos, vel quam.
+               Aşağıdakı xidmətləri sizlərə təklif edir və əməl edirik. Daha ətraflı məlumat üçün xidmətə klik`ləyin.
             </p>
         </div>
         </div>

@@ -5,7 +5,7 @@ const Input = (props) => {
   return (
     <div className='w-full ' id='contact'>
         <label className='relative block cursor-text w-full'>
-            <input type="text" className={`h-14 w-full  border-2 outline-none px-4 peer pt-2 
+            <input type="text" className={`h-14 w-full  border-2 outline-none rounded-md px-4 peer pt-2 
             ${touched&& errorMessage ? "border-danger" : "border-primary"}
             `}
             

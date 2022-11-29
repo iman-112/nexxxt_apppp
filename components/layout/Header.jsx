@@ -62,7 +62,7 @@ const router = useRouter();
           <button className="sm:hidden inline-block" onClick={() => setIsMenuModal(true)}>
             <GiHamburgerMenu  className="text-xl hover:text-hover transition-all"/>
           </button>
-          <span className="text-xs text-slate-400 pointer-events-none">v1.4.5</span>
+        
         </div>
      </div>
       {isSearchModal &&   (

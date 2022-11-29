@@ -1,6 +1,7 @@
 
 import Title from "../ui/Title";
 import { IoIosCall ,IoIosMail } from "react-icons/io/"
+import Logo from "../ui/Logo";
 
 
 
@@ -26,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="md:flex-1">
-            <Title addClass="text-[28px]">CansCovan</Title>
+            <Title addClass="text-[28px]"><Logo /></Title>
             <p className="mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempora consequuntur saepe .
             </p>

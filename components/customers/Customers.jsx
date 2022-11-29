@@ -42,16 +42,46 @@ const Customers = () => {
     ]
   };
   return (
-    <div className="container mx-auto mb-20 mt-12">
-      <Title addClass="text-[45px]  text-center text-primary"> Müştəri fikirləri</Title>
+    <div className="container mx-auto mb-20 mt-12 ">
+      <Title addClass="text-[45px]  text-center text-primary"> Web saytın ərsəyə gəlməsi</Title>
 
       <Slider {...settings}>
-        <CustomerItem />
-
-        <CustomerItem />
-        <CustomerItem />
-
-        <CustomerItem />
+        <div className="mx-2">
+      <div className="mt-5 mx-2 xs:text-center ">
+      <div className="p-6 bg-primary text-white rounded-[5px]">
+      <span className="text-lg font-semibold">1. Addım</span>
+        <p className="mt-4">
+         Müştərinin bizimlə əlaqəyə keçməsi  yaxud əlaqə yaratmaq istəyi ,qarşılıqlı ünsiyyətin yaradılaraq müştərinin istəyini tərəfimizdən aydınlaşdırmaq.
+        </p>
+     
+     
+      </div>
+</div>
+</div>
+<div className="mx-2">
+      <div className="mt-5 mx-2 xs:text-center ">
+      <div className="p-6 bg-primary h-[140px] text-white rounded-[5px]">
+      <span className="text-lg font-semibold">2.Addım</span>
+        <p className="mt-4">
+         Müştəriyə məhsulun planını  və qiymətini  təqdim etmək.
+       
+        </p>
+     
+     
+      </div>
+</div>
+</div> <div className="mx-2 ">
+      <div className="mt-5 mx-2 xs:text-center  ">
+      <div className="p-6 bg-primary h-[140px] text-white rounded-[5px]">
+      <span className="text-lg font-semibold">3.Addim</span>
+        <p className="mt-4">
+         Komandanın qoyulan planla məhsulu işləməsi və müştərinin razılıqı ilə canlıya alınması.
+        </p>
+     
+     
+      </div>
+</div>
+</div>
       </Slider>
     </div>
   );
