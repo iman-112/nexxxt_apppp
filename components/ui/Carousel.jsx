@@ -33,7 +33,7 @@ const Carousel = () => {
         <Slider {...settings}>
       <d iv>
       <div className=" mt-48 container mx-auto text-white  flex flex-col items-start gap-y-8  ">
-        <Title addClass="text-5xl">Lorem, ipsum dolor.</Title>
+        <Title addClass="text-5xl">Iman, ipsum dolor.</Title>
         <p className="text-sm sm:w-2/5 w-full">
           Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente
           ad mollitia laborum quam quisquam esse error unde. Tempora ex
@@ -45,7 +45,7 @@ const Carousel = () => {
       </d>
       <div>
       <div className=" mt-48  container mx-auto text-white  flex flex-col items-start gap-y-8  ">
-        <Title addClass="text-5xl">Lorem, ipsum dolor.</Title>
+        <Title addClass="text-5xl">Iman, ipsum dolor.</Title>
         <p className="text-sm sm:w-2/5 w-full">
           Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente
           ad mollitia laborum quam quisquam esse error unde. Tempora ex
