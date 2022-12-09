@@ -2,6 +2,7 @@
 import Title from "../ui/Title";
 import { IoIosCall ,IoIosMail } from "react-icons/io/"
 import Logo from "../ui/Logo";
+import Link from "next/link";
 
 
 
@@ -18,7 +19,7 @@ const Footer = () => {
             
               <div className="mb-2">
                 <i className="fa fa-phone"></i>
-                <span className="inline-block ml-2">Tel: +994773114834</span>
+                <span className="inline-block ml-2">Tel: +994514334365</span>
               </div>
               <div>
                 <i className="fa fa-envelope"></i>
@@ -37,16 +38,16 @@ const Footer = () => {
             <Title addClass="text-[28px]">Qısayollar</Title>
             <div className="flex flex-col gap-y-2 mt-3">
               <div>
-                <span className="inline-block ml-2"><a href="#main">Ana Səhifə</a></span>
+                <span className="inline-block ml-2"><Link href="/"> Giriş səhifəsi </Link></span>
               </div>
               <div>
-                <span className="inline-block ml-2"><a href="xidmetler">Xidmətlər</a></span>
+                <span className="inline-block ml-2"><Link href="/xidmetler"> Xidmətlər </Link></span>
               </div>
               <div>
-                <span className="inline-block ml-2"><a href="#about">Haqqımızda</a></span>
+                <span className="inline-block ml-2"><Link href="/about"> Haqqımızda </Link></span>
               </div>
               <div>
-                <span className="inline-block ml-2"><a href="#contact">Zəng istə</a></span>
+                <span className="inline-block ml-2"><Link href="/contact"> Sizə zəng edək ? </Link></span>
               </div>
             </div>
           </div>

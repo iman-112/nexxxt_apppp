@@ -5,7 +5,6 @@ import Search from "../ui/Search"
 import { GiCancel, GiHamburgerMenu } from "react-icons/gi"
 import { useRouter } from "next/router"
 import Link from "next/link"
-import {FaWhatsapp} from "react-icons/fa"
 const Header = () => {
 const [isSearchModal, setIsSearchModal] = useState(false);
 const [isMenuModal, setIsMenuModal] = useState(false);
@@ -46,16 +45,13 @@ const router = useRouter();
     ) }
         </nav>
         <div className="flex gap-x-4 items-center">
-          <Link href="/auth/login" >
-            <FaUserAlt className="hover:text-hover transition-all cursor-pointer" />
-          </Link>
+     
   
           <button onClick={() => setIsSearchModal(true)}>
             <FaSearch className="hover:text-hover transition-all cursor-pointer"  />
           </button>
-          <Link href="https://api.whatsapp.com/send?phone=994773114834&text=Salam%20.%20" target="_blank" className="md:inline-block hidden ">
+          <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" className="md:inline-block hidden ">
             <button className="btn-primary flex">
-              <FaWhatsapp className="mr-2 mt-[2px] bg-green-500 text-white rounded-full" size={20}/>
               
               Tələb et</button>
           </Link>

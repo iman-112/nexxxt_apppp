@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Products from "../../components/admin/Products"
 import { useState } from "react";
-import Account from "../../components/profile/Account";
+
 import Footer from "../../components/admin/Footer"
 
-import Password from "../../components/profile/Password";
+
 
 const Profile = () => {
   const [tabs, setTabs] = useState(0);
 
   return (
-    <div className="flex px-10 min-h-[calc(100vh_-_433px)] lg:flex-row flex-col lg:mb-0 mb-10">
+    <div className="flex px-10 min-h-[calc(100vh_-_433px)] lg:flex-row flex-col lg:mb-0 mb-10 p-10">
       <div className="lg:w-80 w-100 flex-shrink-0">
         <div className="relative flex flex-col items-center px-10 py-5 border border-b-0">
           <Image

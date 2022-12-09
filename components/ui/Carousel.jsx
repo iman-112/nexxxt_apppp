@@ -39,7 +39,7 @@ const Carousel = () => {
         <p className="text-sm sm:w-2/5 w-full">
          Rəqəmsal marketinqin günü gündən böyüdüyü və inkişaf  etdiyi bir zamanda onlayn qalmaq şərt halına gəldi. Bu yolda sizlərə  biznesiniz üçün daha çox sıxlıq , görünürlük və satış qazandıracağıq.
         </p>
-        <Link href="https://api.whatsapp.com/send?phone=994773114834&text=Salam%20.%20" target="_blank">
+        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank">
         <button className="btn-primary flex">
           <FaWhatsapp size={20} className="rounded-full bg-green-500 text-white mr-1 mt-[2px]"/>
           Tələb et</button>
