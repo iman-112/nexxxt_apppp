@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="md:flex-1">
-            <Title addClass="text-[28px]"><Logo /></Title>
+            <Title addClass="text-[28px]">CansWeb</Title>
             <p className="mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempora consequuntur saepe .
             </p>

@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const index = () => {
+
+
   return (
       
-    <div  className=''>product detail</div>
+    <div  className=''>
+    
+
+    
+    
+    </div>
   )
 }
 

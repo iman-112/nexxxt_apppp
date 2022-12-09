@@ -25,16 +25,16 @@ const router = useRouter();
         >
           <ul className="flex gap-x-2 sm:flex-row flex-col items-center justify-end text-white">
           <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer">
-            <Link href="/" className="text-[15px]">Ana Səhifə</Link>
+            <Link href="/" onClick={() => setIsMenuModal(false)} className="text-[15px]">Ana Səhifə</Link>
             </li>
             <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer" >
-            <Link href="/menu "className="text-[15px]" >Xidmətlər</Link>
+            <Link href="/menu  " onClick={() => setIsMenuModal(false)} className="text-[15px]" >Xidmətlər</Link>
             </li>
             <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer" >
-            <Link href="/about" className="text-[15px]">Haqqımızda</Link>
+            <Link href="/about" onClick={() => setIsMenuModal(false)} className="text-[15px]">Haqqımızda</Link>
             </li  >
             <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer">
-            <Link href="/contact "className="text-[15px]">əlaqə</Link>
+            <Link href="/contact" onClick={() => setIsMenuModal(false)} className="text-[15px]">əlaqə</Link>
             </li>
           </ul>
           {isMenuModal && (

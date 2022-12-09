@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
-import { TbArrowMerge } from 'react-icons/tb'
+import { GiNetworkBars } from 'react-icons/gi'
 
 const Logo = () => {
   return (
-    <>
-    <Link href="/" className='text-[2rem] font-caveot font-bold'>CansWeb   <span className="text-sm text-slate-400 pointer-events-none">v1.4.6</span>  </Link> 
+    < >
+   
+    <Link href="/" className='text-[2rem] font-caveot font-bold flex items-center'> CansWeb   <span className="text-[11px] text-slate-400 pointer-events-none ml-1 items-end mt-3">v1.4.6</span>  </Link> 
     
     </>
   )

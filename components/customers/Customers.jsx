@@ -26,7 +26,7 @@ const Customers = () => {
     speed: 500,
     slideToShow: 2,
     slidesToScroll: 1,
-    autoplay:true,
+    autoplay:false,
     autoplaySpeed:3500,
     arrows:true,
     nextArrow: <NextBtn/ >,

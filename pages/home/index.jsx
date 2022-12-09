@@ -10,6 +10,8 @@ import Tech from '../../components/ui/Tech'
 
 
 const Index = () => {
+
+  
   return (
     <React.Fragment  >
     <Carousel />

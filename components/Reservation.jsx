@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Input from "./form/Input";
 import Title from "./ui/Title";
 import { Formik, useFormik } from 'formik';
 import { reservationSchema } from "../schema/reservation";
-
+import {BsCheck} from "react-icons/bs"
 const Reservation = () => {
   const onSubmit = async( values , actions) =>{
       await new Promise((resolve) => setTimeout(resolve,4000));
@@ -77,8 +77,20 @@ const Reservation = () => {
     },
   ]
 
+const [ isSending , setisSending] = useState(false);
+const [ isSend , setisSend ] = useState(false)
 
 
+const handleClick = () =>{
+  setisSending(true);
+  setTimeout(() =>{
+    setisSending(false);
+    setisSend(true)
+    setTimeout(() =>{
+      setisSend(false)
+    }, 1700)
+  }, 2000)
+} 
   return (
     <div className="container mx-auto py-12">
       <div >
@@ -89,7 +101,24 @@ const Reservation = () => {
           <Input key={input.id} {...input} onChange={handleChange} onBlur={handleBlur} />
          ))}
         </div>
-        <button type="submit" className="btn-primary mt-4 !bg-primary !text-white hover:!text-hover"> Gonder</button>
+        <button type="submit"  
+        className=" gap-[16px] mt-2 text-[#f9f9f9] bg-primary border rounded-lg p-0 w-[260px] h-[65px] text-lg cursor-pointer transition-all pointer-events-none opacity-70"
+
+
+        disabled= {isSending || isSend}
+        onClick={handleClick}
+       > <span className="sub-rail"></span>
+       <span className="sub-icon"></span>
+       <span >
+       {
+        isSending 
+        ? 'Göndərilir...'
+        : isSend 
+        ?' Uğurla göndərildi  ' 
+        : 'İndi göndər'
+       } </span>
+       
+       </button>
       </form>
       </div>
     
