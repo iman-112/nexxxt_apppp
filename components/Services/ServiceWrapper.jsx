@@ -2,6 +2,11 @@
 import React from 'react'
 import Title from '../ui/Title'
 import ServiceItem from './ServiceItem'
+import ServiceItemApp from './ServiceItemApp'
+import ServiceItemsmm from './ServiceItemsmm'
+import ServiceItemSeo from './ServiceItemSeo'
+import ServiceItemit from './ServiceItemit'
+
 
 const ServiceWrapper = () => {
   return (
@@ -18,10 +23,10 @@ const ServiceWrapper = () => {
         <div className='mt-8 grid md:grid-cols-3
         sm:grid-cols-2 grid-cols-1 gap-4'>
             <ServiceItem />
-            <ServiceItem />
-            <ServiceItem />
-            <ServiceItem />
-            <ServiceItem />
+            <ServiceItemSeo />
+            <ServiceItemApp />
+          <ServiceItemsmm />
+            <ServiceItemit />
         </div>
     </div>
   )

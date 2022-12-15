@@ -3,7 +3,7 @@ import React from 'react'
 
 
 import Link from 'next/link'
-const ServiceItem = () => {
+const ServiceItemApp = () => {
   return (
     <div className='bg-primary rounded-3xl '>
        <div className='w-full bg-white border-hover  h-[210px] grid place-content-center rounded-br-[40px] '> 
@@ -12,8 +12,8 @@ const ServiceItem = () => {
         </div>
        </div>
         <div className='p-[25px] text-white ' >
-           <h4 className='text-xl font-semibold pb-4 text-center'> Web Saytların hazırlanması</h4>
-           <p className='text-[15px]'> Müasir freymvork və CMS-lərdən istifadə edərək, sürətli, kreativ, geniş-funksiyalı, bütün cihaz ekranlarına uyğunlaşan yüksək səviyyəli veb saytlar və veb tətbiqlər hazırlayırıq.</p>  
+           <h4 className='text-xl font-semibold pb-4 text-center'> Mobil Tətbiq Xidməti</h4>
+           <p className='text-[15px]'> Veb saytlar hazırlayaraq sektorda adını qazanan CansWeb, veb saytlarla yanaşı, IOS və Android platformalarında tətbiqlər hazırlayaraq müştərilərinə mobil tətbiq xidmətləri təqdim edir.</p>  
            <div className='flex justify-between   items-center mt-4'>
            <button className='btn-primary '>
             <Link href="/sayt_xidmeti">
@@ -28,4 +28,4 @@ const ServiceItem = () => {
   )
 }
 
-export default ServiceItem
+export default ServiceItemApp

@@ -22,3 +22,10 @@ body {
 .btn-primary{
  @apply text-primary px-[30px] py-[8px] rounded-3xl bg-link cursor-pointer  hover:bg-hover transition-all hover:text-white
 }
+
+.shadow_class:hover{
+  box-shadow: -10px -3px 13px -2px rgba(18,183,214,0.75);
+  -webkit-box-shadow: -10px -3px 13px -2px rgba(18,183,214,0.75);
+  -moz-box-shadow: -10px -3px 13px -2px rgba(18,183,214,0.75);
+
+}
