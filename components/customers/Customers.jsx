@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../ui/Title";
-import CustomerItem from "./CustomerItem";
+
 import Slider from "react-slick";
 import {IoIosArrowBack, IoIosArrowForward } from "react-icons/io"
 const Customers = () => {
@@ -43,7 +43,7 @@ const Customers = () => {
   };
   return (
     <div className="container mx-auto mb-20 mt-12 ">
-      <Title addClass="text-[45px]  text-center text-primary"> Web saytın ərsəyə gəlməsi</Title>
+      <Title addClass="text-[30px]  text-center text-primary"> WEB SAYTLARIN ƏRSƏYƏ GƏLMƏSİ</Title>
 
       <Slider {...settings}>
         <div className="mx-2">

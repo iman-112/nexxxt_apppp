@@ -30,10 +30,10 @@ const router = useRouter();
             <Link href="/xidmetler  " onClick={() => setIsMenuModal(false)} className="text-[15px]" >Xidmətlər</Link>
             </li>
             <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer" >
-            <Link href="/about" onClick={() => setIsMenuModal(false)} className="text-[15px]">Haqqımızda</Link>
+            <Link href="/haqqimizda" onClick={() => setIsMenuModal(false)} className="text-[15px]">Haqqımızda</Link>
             </li  >
             <li className="px-[5px] py-[20px] uppercase  hover:text-hover cursor-pointer">
-            <Link href="/contact" onClick={() => setIsMenuModal(false)} className="text-[15px]">əlaqə</Link>
+            <Link href="/elaqe" onClick={() => setIsMenuModal(false)} className="text-[15px]">əlaqə</Link>
             </li>
           </ul>
           {isMenuModal && (

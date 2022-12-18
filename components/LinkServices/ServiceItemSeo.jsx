@@ -3,7 +3,7 @@ import React from 'react'
 
 
 import Link from 'next/link'
-const ServiceItemit = () => {
+const ServiceItemSeo = () => {
   return (
     <div className='bg-primary rounded-3xl '>
        <div className='w-full bg-white border-hover  h-[210px] grid place-content-center rounded-br-[40px] '> 
@@ -12,11 +12,11 @@ const ServiceItemit = () => {
         </div>
        </div>
         <div className='p-[25px] text-white ' >
-           <h4 className='text-xl font-semibold pb-4 text-center'> İT Xidməti</h4>
-           <p className='text-[15px]'> İnformasiya texnologiyaları müasir həyatın bir hissəsi halına gəldikdə bu günə qədər müxtəlif biznes sahələrində biznes-proseslərin və idarəetmələrin təşkili üçün zəruri köməklik göstərilməlidir</p>  
+           <h4 className='text-xl font-semibold pb-4 text-center'> SEO Optimizasiya</h4>
+           <p className='text-[15px]'> Axtarış motorunun optimallaşdırılması  saytların axtarış sistemlərində daha çox görünməsi üçün aparılır. Google və digər axtarış sistemlərində daha yaxşı mövqelərdə yerləşdirməklə ziyarətçi sayımızı artıra bilərik.</p>  
            <div className='flex justify-between   items-center mt-4'>
            <button className='btn-primary '>
-            <Link href="/sayt_xidmeti">
+            <Link href="/xidmetler/seo_xidmeti">
             Daha Ətraflı
             </Link>
            </button>
@@ -28,4 +28,4 @@ const ServiceItemit = () => {
   )
 }
 
-export default ServiceItemit
+export default ServiceItemSeo

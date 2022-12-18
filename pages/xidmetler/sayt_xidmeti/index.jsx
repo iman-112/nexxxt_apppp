@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import SaytlarinHazirlanmasi from '../../components/Services/SaytlarinHazirlanmasi'
+import SaytlarinHazirlanmasi from '../../../components/Services/SaytlarinHazirlanmasi'
 
 const Index = () => {
   return (

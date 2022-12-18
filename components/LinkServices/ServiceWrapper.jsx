@@ -3,19 +3,20 @@ import React from 'react'
 import Title from '../ui/Title'
 import ServiceItem from './ServiceItem'
 import ServiceItemApp from './ServiceItemApp'
-import ServiceItemsmm from './ServiceItemsmm'
-import ServiceItemSeo from './ServiceItemSeo'
 import ServiceItemit from './ServiceItemit'
+import ServiceItemSeo from './ServiceItemSeo'
+import ServiceItemsmm from './ServiceItemsmm'
+
 
 
 const ServiceWrapper = () => {
   return (
     <div className='container mx-auto mb-16'>
         <div className='flex flex-col items-center  w-full'>
-        <Title addClass="text-center mb-5 uppercase text-[35px] font-bold text-primary "  > Xidmətlərimiz </Title>
+        <Title addClass="text-center mb-5 uppercase text-[35px] font-bold text-primary "  > XİDMƏTLƏRİMİZ </Title>
         <div >
             <p className='text-center text-sm text-gray-600 px-3'>
-               Aşağıdakı xidmətləri sizlərə təklif edir və əməl edirik. Daha ətraflı məlumat üçün xidmətə klik`ləyin.
+              Aşağıda Göstərilən əsas xidmətləri sizlərə təklif edirik.
             </p>
         </div>
         </div>
@@ -25,7 +26,7 @@ const ServiceWrapper = () => {
             <ServiceItem />
             <ServiceItemSeo />
             <ServiceItemApp />
-          <ServiceItemsmm />
+            <ServiceItemsmm />
             <ServiceItemit />
         </div>
     </div>
