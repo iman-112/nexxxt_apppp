@@ -2,7 +2,7 @@ import Title from "../ui/Title";
 
 const About = () => {
   return (
-    <div className='bg-primary py-14 mb-8 text-white ' id="about">
+    <div className='bg-primary py-14  text-white ' id="about">
       <div className='container mx-auto flex flex-col items-center text-center'>
       <div >
         <Title addClass=" text-[34px] " > Biz Kimik ?</Title>

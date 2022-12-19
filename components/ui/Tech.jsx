@@ -15,7 +15,32 @@ const Tech = () => {
     slidesToScroll: 4,
     arrows:false,
     autoplay:true,
-    autoplaySpeed:10000,
+    autoplaySpeed:2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+         
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll:2
+        }
+      }
+    ]
   };
   return (
     <div className="  mb-12 mt-12 container mx-auto p-4 scrollbar gap   bg-primary text-white rounded">

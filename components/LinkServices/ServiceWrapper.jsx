@@ -13,7 +13,7 @@ const ServiceWrapper = () => {
   return (
     <div className='container mx-auto mb-16'>
         <div className='flex flex-col items-center  w-full'>
-        <Title addClass="text-center mb-5 uppercase text-[35px] font-bold text-primary "  > XİDMƏTLƏRİMİZ </Title>
+        <Title addClass="text-center mb-5 uppercase text-[35px] font-bold text-primary py-2 "  > XİDMƏTLƏRİMİZ </Title>
         <div >
             <p className='text-center text-sm text-gray-600 px-3'>
               Aşağıda Göstərilən əsas xidmətləri sizlərə təklif edirik.

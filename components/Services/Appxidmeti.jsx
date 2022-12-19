@@ -18,16 +18,7 @@ const Appxidmeti = () => {
                     <span className="underline text-[16px] font-bold text-primary">
                       CansWeb
                     </span>{" "}
-                    , peşəkar müəssisələr üçün münasib qiymətlərlə korporativ və
-                    dinamik dizayn ilə veb saytların yığılması xidmətini həyata
-                    keçirən rəqəmsal bir agentlikdir. CansWeb, rəqəmsal dünyada
-                    yerini tutaraq keyfiyyətli veb saytların yığılması xidmətini
-                    istifadəçilərinə münasib qiymətə çatdıraraq uzun müddətli iş
-                    proseslərini qurmağı hədəfləyən bir veb agentliyidir. CansWeb
-                    eyni zamanda IT xidməti və Sosial Media İdarəetmə (SMM)
-                    Mütəxəssislərini də əhatə edir. Tək səhifəli veb saytlardan
-                    başlayaraq fərqli paket seçimləri ilə CansWeb hər kəs üçün bir
-                    veb sayt seçimi təqdim edir.{" "}
+                     yeni texnelogiyalar ilə IOS və Android platformaları üçün proqramlar hazırlayır.  Mobil tətbiqlər sayəsində bildirişlər, istifadəçi məlumatlarını yadda saxlamaq, əmrləri digər tətbiqlərə göndərmək və istifadə etmək, istənilən vaxt istifadəçilərin yanında olmaq, marka ilə sürətli ünsiyyətin üstünlüyü kimi markaya dəyər qatan bir çox xüsusiyyətləri əldə edə bilərsiniz. .
                   </p>
                 </li>
     

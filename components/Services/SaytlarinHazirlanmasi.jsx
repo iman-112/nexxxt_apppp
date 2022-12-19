@@ -23,9 +23,7 @@ const SaytlarinHazirlanmasi = () => {
                     keçirən rəqəmsal bir agentlikdir. CansWeb, rəqəmsal dünyada
                     yerini tutaraq keyfiyyətli veb saytların yığılması xidmətini
                     istifadəçilərinə münasib qiymətə çatdıraraq uzun müddətli iş
-                    proseslərini qurmağı hədəfləyən bir veb agentliyidir. CansWeb
-                    eyni zamanda IT xidməti və Sosial Media İdarəetmə (SMM)
-                    Mütəxəssislərini də əhatə edir. Tək səhifəli veb saytlardan
+                    proseslərini qurmağı hədəfləyən bir veb agentliyidir.  Tək səhifəli veb saytlardan
                     başlayaraq fərqli paket seçimləri ilə CansWeb hər kəs üçün bir
                     veb sayt seçimi təqdim edir.{" "}
                   </p>

@@ -31,15 +31,7 @@ const Customers = () => {
     arrows:true,
     nextArrow: <NextBtn/ >,
     prevArrow: <PrevBtn /> ,
-    responsive:[
-      {
-        breakpoint:768,
-        settings:{
-          slideToShow:1,
-          arrows:false,
-        }
-      }
-    ]
+ 
   };
   return (
     <div className="container mx-auto mb-20 mt-12 ">
@@ -49,7 +41,7 @@ const Customers = () => {
         <div className="mx-2">
       <div className="mt-5 mx-2 xs:text-center ">
       <div className="p-6 bg-primary text-white rounded-[5px]">
-      <span className="text-lg font-semibold">1. Addım</span>
+      <span className="text-lg font-semibold">1.Addım</span>
         <p className="mt-4">
          Müştərinin bizimlə əlaqəyə keçməsi  yaxud əlaqə yaratmaq istəyi ,qarşılıqlı ünsiyyətin yaradılaraq müştərinin istəyini tərəfimizdən aydınlaşdırmaq.
         </p>
@@ -63,19 +55,33 @@ const Customers = () => {
       <div className="p-6 bg-primary h-[140px] text-white rounded-[5px]">
       <span className="text-lg font-semibold">2.Addım</span>
         <p className="mt-4">
-         Müştəriyə məhsulun planını  və qiymətini  təqdim etmək.
+       
+Toplanılan məlumatlara əsasən plan hazırlanılır.
        
         </p>
      
      
       </div>
 </div>
-</div> <div className="mx-2 ">
+</div> 
+<div className="mx-2 ">
       <div className="mt-5 mx-2 xs:text-center  ">
       <div className="p-6 bg-primary h-[140px] text-white rounded-[5px]">
       <span className="text-lg font-semibold">3.Addim</span>
         <p className="mt-4">
-         Komandanın qoyulan planla məhsulu işləməsi və müştərinin razılıqı ilə canlıya alınması.
+         Yaradılmış  planla məhsulun işlənməsi və müştəriyə təqdim edilməsi . Yekun müzakirə aparılması . Sifarışı tamamlamaq.
+        </p>
+     
+     
+      </div>
+</div>
+</div>
+<div className="mx-2 ">
+      <div className="mt-5 mx-2 xs:text-center  ">
+      <div className="p-6 bg-primary h-[140px] text-white rounded-[5px]">
+      <span className="text-lg font-semibold">4.Addim</span>
+        <p className="mt-4">
+        Müştərilərin istəyindən asılı olaraq aylıq dəstək planı hazırlanılır, təklif edilir. Aylıq dəstək planı əsasında konseptinizdə olacaq dəyişikliklər, əlavələr icra edilir.
         </p>
      
      

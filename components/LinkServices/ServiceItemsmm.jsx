@@ -7,8 +7,8 @@ const ServiceItemsmm = () => {
   return (
     <div className='bg-primary rounded-3xl '>
        <div className='w-full bg-white border-hover  h-[210px] grid place-content-center rounded-br-[40px] '> 
-       <div className=' relative w-36 h-36 bg-white '>
-    <Image src="/images/service-4.png" alt=" "layout="fill"  className='hover:scale-125 transition-all cursor-pointer ' />
+       <div className=' relative w-56 h-52 bg-white '>
+    <Image src="/images/smm-image.png" alt=" "layout="fill"  className='hover:scale-125 transition-all cursor-pointer ' />
         </div>
        </div>
         <div className='p-[25px] text-white ' >
