@@ -41,8 +41,8 @@ const Carousel = () => {
         </p>
         <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank">
         <button className="btn-primary flex">
-          <FaWhatsapp size={20} className="rounded-full bg-green-500 text-white mr-1 mt-[2px]"/>
-          Tələb et</button>
+          
+          Müraciət et</button>
           </Link>
       </div>
       </d>
@@ -52,10 +52,10 @@ const Carousel = () => {
         <p className="text-sm sm:w-2/5 w-full">
           Biznesinizdə müştəri bazanızı böyütmək , Markanızı dahada iləri səviyyələrə qaldırmaq və ən əsasıda müştəri axtarışına yoxda müştərinin sizi axtarıb tapmasına səbəb yaradın. Bu platformda bu nəticəyə gəlmək dahada ilham vericidir.
         </p>
-        <Link href="https://api.whatsapp.com/send?phone=994773114834&text=Salam%20.%20" target="_blank">
+        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank">
         <button className="btn-primary flex">
-          <FaWhatsapp size={20} className="rounded-full bg-green-500 text-white mr-1 mt-[2px]"/>
-          Tələb et</button>
+          
+          Müraciət et</button>
           </Link>
       </div>
       </div>

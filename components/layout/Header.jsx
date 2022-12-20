@@ -53,7 +53,7 @@ const router = useRouter();
           <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" className="md:inline-block hidden ">
             <button className="btn-primary flex">
               
-              Tələb et</button>
+            Müraciət et</button>
           </Link>
           <button className="sm:hidden inline-block" onClick={() => setIsMenuModal(true)}>
             <GiHamburgerMenu  className="text-xl hover:text-hover transition-all"/>

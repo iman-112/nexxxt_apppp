@@ -2,17 +2,24 @@ import Title from "../ui/Title";
 
 const About = () => {
   return (
-    <div className='bg-primary py-14  text-white ' id="about">
-      <div className='container mx-auto flex flex-col items-center text-center'>
-      <div >
-        <Title addClass=" text-[34px] " > Biz Kimik ?</Title>
-        <p className="py-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima omnis quaerat laborum soluta molestiae voluptas, et debitis maiores a eveniet reiciendis eaque ratione temporibus porro illo explicabo! Ratione, nam explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos et, magni unde nisi eaque, ullam hic minus repellat sequi aliquid commodi quia voluptatum libero doloremque explicabo quasi, expedita quibusdam atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde magnam consequuntur aliquam, enim error quibusdam at fugit, amet esse debitis deserunt sit illum modi in impedit. In aliquam delectus harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex atque totam in molestiae dolores officiis iste dicta eum aliquid cumque veritatis provident nobis, labore, tempora et blanditiis perspiciatis aliquam aperiam.</p>
-      
-      </div>
-  
+    <div className="bg-primary py-14  text-white " id="about">
+      <div className="container mx-auto flex flex-col items-center text-center">
+        <div>
+          <Title addClass=" text-[34px] "> BİZ KİMİK? ?</Title>
+          <p className="py-6 text-[18px] tracking-tighter" >
+        
+            Çoxillik təcrübəmizi cibimizə qoyduq, korporativ həyatı tərk etdik və     <span className="underline text-[18px] font-bold text-hover px-2">
+              CansWeb  
+            </span> Uzaqdan Rəqəmsal Marketinq Agentliyini qurduq. Biz adımızı ingilis lüğətindəki sözbirləşməsinin qısaltması olan  Cans sözündən mənimsədik. Bunun mənası güvənmək , inanmaqdır .Çünki güvən olmadan işbirliyi olmaz, strategiya və bilik olsa belə yaradıcılıq faydasızdır və  bunlar olmadan rəqəmsal marketinq kampaniyası öz məqsədinə çata bilməz.
+
+Azərbaycanın ən yaxşı rəqəmsal marketinq agentliklərindən biri olduğumuz bu yola belə bir düşüncə və məqsədlə başladıq; Biz həmişə şirkətlərin ,şəxsi biznesslərin rəqəmsal dünyada potensialını reallaşdırmasını hədəfləmişik. Yüksək büdcələrlə ölçülə bilməyən mənasız reklam fəaliyyətləri yerinə planlı, proqramlaşdırılmış, sınaqdan keçirilə bilən, ölçülə bilən, uzunmüddətli rəqəmsal marketinq fəaliyyətləri ilə şirkətlərin necə böyük faydalar qazana biləcəyini və bunun necə edilə biləcəyini çatdırmağı hədəflədik.
+
+Yarandığımız gündən biz öz məqsədlərinə çatmış onlarla xoşbəxt müştəri topladıq...
+          </p>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

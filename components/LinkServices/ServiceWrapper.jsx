@@ -5,7 +5,6 @@ import ServiceItem from './ServiceItem'
 import ServiceItemApp from './ServiceItemApp'
 import ServiceItemit from './ServiceItemit'
 import ServiceItemSeo from './ServiceItemSeo'
-import ServiceItemsmm from './ServiceItemsmm'
 
 
 
@@ -26,7 +25,6 @@ const ServiceWrapper = () => {
             <ServiceItem />
             <ServiceItemSeo />
             <ServiceItemApp />
-            <ServiceItemsmm />
             <ServiceItemit />
         </div>
     </div>

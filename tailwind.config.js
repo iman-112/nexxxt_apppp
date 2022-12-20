@@ -27,7 +27,8 @@ module.exports = {
       },
       fontFamily:{
         caveot:['Prompt'   ],
-        sans:["Open Sans", "sans-serif"]
+        sans:["Open Sans", "sans-serif"],
+        josephin:[ 'Josefin Sans', "sans-serif"]
        
 
       }

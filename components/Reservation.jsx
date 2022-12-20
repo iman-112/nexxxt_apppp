@@ -95,14 +95,14 @@ const handleClick = () =>{
     <div className="container mx-auto py-12">
       <div >
       <form onSubmit={handleSubmit} className="text-center">
-        <Title addClass="text-[40px] mb-10 text-primary"> Istək göndər </Title>
+        <Title addClass="text-[40px] mb-10 text-primary"> İSTƏK GÖNDƏR </Title>
         <div className="w-80 lg:w-2/4 mx-auto flex flex-col gap-y-3 " >
          {inputs.map((input) => (
           <Input key={input.id} {...input} onChange={handleChange} onBlur={handleBlur} />
          ))}
         </div>
         <button type="submit"  
-        className=" gap-[16px] mt-2 text-[#f9f9f9] bg-primary border rounded-lg p-0 w-[260px] h-[65px] text-lg cursor-pointer transition-all pointer-events-none opacity-70"
+        className=" gap-[16px] mt-2 text-[#f9f9f9] bg-primary border rounded-lg p-0 w-[260px] h-[65px] text-lg cursor-pointer transition-all "
 
 
         disabled= {isSending || isSend}

@@ -12,11 +12,12 @@ const ServiceItemApp = () => {
         </div>
        </div>
         <div className='p-[25px] text-white ' >
-           <h4 className='text-xl font-semibold pb-4 text-center'> Mobil Tətbiq </h4>
-           <p className='text-[15px]'> Veb saytlar hazırlayaraq sektorda adını qazanan CansWeb, veb saytlarla yanaşı, IOS və Android platformalarında tətbiqlər hazırlayaraq müştərilərinə mobil tətbiq xidmətləri təqdim edir.</p>  
+           <h4 className='text-xl font-semibold pb-4 text-center'> Texniki Xidmət </h4>
+           <p className='text-[15px]'> Veb saytlar hazırlayaraq sektorda adını qazanan CansWeb, veb saytlar hazırlamaqla yanaşı, 
+           sizin hazır , tamamlanmamış  veb saytlarınızada texniki dəstək   xidmətləri təqdim edir.</p>  
            <div className='flex justify-between   items-center mt-4'>
            <button className='btn-primary '>
-            <Link href="/xidmetler/app_xidmeti">
+            <Link href="/xidmetler/texniki_xidmet">
             Daha Ətraflı
             </Link>
            </button>

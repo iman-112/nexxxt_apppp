@@ -48,10 +48,8 @@ const SaytlarinHazirlanmasi = () => {
                     Kiçik Biznes Paketi
                   </h4>
                   <p className="text-[14px]">
-                  
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Incidunt similique expedita eius molestiae id culpa corrupti
-                    aspernatur eligendi voluptatum illum?.
+                  Şəxsi bloq , biznesin tanıtımı  üçün nəzərdə tutulub.
+                    
                   </p>
                   <div className="flex  flex-col p-4 ">
                     <ul className="list-disc ">
@@ -59,12 +57,12 @@ const SaytlarinHazirlanmasi = () => {
                       <li className="mb-2">Korporativ email: 1 ədəd</li>
                       <li className="mb-2"> Dil seçimi: 1-2 dildə</li>
     
-                      <li className="mb-2"> Dizayn: Şablon</li>
+                      <li className="mb-2"> Domain: Tərəfimizdən </li>
     
                       <li className="mb-2"> Hosting: Tərəfimizdən</li>
                     </ul>
                     <span className="text-sm my-2 italic text-center font-bold ">
-                      Müddət 5-7 gün
+                      Müddət 2-4 gün
                     </span>
                     <span className="text-sm my-2 text-center font-bold ">
                       350 AZN - 650 AZN
@@ -84,9 +82,7 @@ const SaytlarinHazirlanmasi = () => {
                   </h4>
                   <p className="text-[14px]">
                     
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Incidunt similique expedita eius molestiae id culpa corrupti
-                    aspernatur eligendi voluptatum illum?.
+                    E-ticarət saytları üçün nəzərdə tutulub.
                   </p>
                   <div className="flex  flex-col p-4 ">
                     <ul className="list-disc ">
@@ -94,16 +90,18 @@ const SaytlarinHazirlanmasi = () => {
                       <li className="mb-2">Korporativ email: 5 ədəd</li>
                       <li className="mb-2">  Dil seçimi: 2-3 dildə</li>
     
-                      <li className="mb-2"> Dizayn: hazır dizayn variantları istifadə edilir</li>
+                      <li className="mb-2"> Domain: Tərəfimizdən</li>
+    
+                      <li className="mb-2"> Admin Panel: Var</li>
     
                       <li className="mb-2"> Hosting: Tərəfimizdən</li>
     
     
                       <li className="mb-2"> Logo hazırlanması</li>
     
-                      <li className="mb-2"> Hostinq: 12 ay -- 10GB SSD</li>
+                     
     
-                      <li className="mb-2"> Texniki dəstək: 5 ay</li>
+                      <li className="mb-2"> Texniki dəstək: 2 ay</li>
                     </ul>
                     <span className="text-sm my-2 italic text-center font-bold ">
                       Müddət 10-15 gün
@@ -127,9 +125,7 @@ const SaytlarinHazirlanmasi = () => {
                   </h4>
                   <p className="text-[14px]">
                     
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Incidunt similique expedita eius molestiae id culpa corrupti
-                    aspernatur eligendi voluptatum illum?.
+                    Böyük layihələr üçün nəzərdə tutulub.
                   </p>
                   <div className="flex  flex-col p-4 ">
                     <ul className="list-disc ">
@@ -137,18 +133,19 @@ const SaytlarinHazirlanmasi = () => {
                       <li className="mb-2">Korporativ email: 10 ədəd</li>
                       <li className="mb-2"> Dil seçimi: 3-4 dildə</li>
     
-                      <li className="mb-2"> Dizayn: unikal sıfırdan çekilmiş dizayn Figma proqramında sizə təqdim olunacaq</li>
+                      <li className="mb-2"> Domain: Tərəfimizdən</li>
     
-                      <li className="mb-2"> Admin panel: var (xüsusi / sıfırdan yığılır)</li>
-                      <li className="mb-2">  Logo hazırlanmas</li>
+                      <li className="mb-2"> Admin panel: xüsusi / sıfırdan yığılır</li>
+                      <li className="mb-2"> Hosting: Tərəfimizdən</li>
+                      <li className="mb-2">  Logo hazırlanması</li>
                       <li className="mb-2"> Texniki SEO işləri</li>
                       <li className="mb-2"> Texniki dəstək: 12 ay</li>
                     </ul>
                     <span className="text-sm my-2 italic text-center font-bold ">
-                      Müddət 5-7 gün
+                      Müddət 15-30 gün
                     </span>
                     <span className="text-sm my-2 text-center font-bold ">
-                      350 AZN - 650 AZN
+                      2500 AZN - 3500 AZN
                     </span>
                     <button className='btn-primary m-2 '>
                         <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" >

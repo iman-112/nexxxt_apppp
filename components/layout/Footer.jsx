@@ -1,6 +1,6 @@
 
 import Title from "../ui/Title";
-import { IoIosCall ,IoIosMail } from "react-icons/io/"
+
 import Logo from "../ui/Logo";
 import Link from "next/link";
 
@@ -28,9 +28,12 @@ const Footer = () => {
             </div>
           </div>
           <div className="md:flex-1">
-            <Title addClass="text-[28px]">CansWeb</Title>
+            <Title addClass="text-[28px] ">
+              <span className="text-hover">Cans</span>
+              <span>Web</span>
+               </Title>
             <p className="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempora consequuntur saepe .
+              Rəqəmsal Marketinqi sınayın , əhəmiyyətli nəticələr əldə edin.
             </p>
            
           </div>
@@ -44,16 +47,16 @@ const Footer = () => {
                 <span className="inline-block ml-2"><Link href="/xidmetler"> Xidmətlər </Link></span>
               </div>
               <div>
-                <span className="inline-block ml-2"><Link href="/about"> Haqqımızda </Link></span>
+                <span className="inline-block ml-2"><Link href="/haqqimizda"> Haqqımızda </Link></span>
               </div>
               <div>
-                <span className="inline-block ml-2"><Link href="/contact"> Sizə zəng edək ? </Link></span>
+                <span className="inline-block ml-2"><Link href="/elaqe"> Müraciət et</Link></span>
               </div>
             </div>
           </div>
         </div>
-        <p className="text-center mt-10">
-          © 2022 All Riights Reserved By CansCovan
+        <p className="text-center text-[12px] mt-10">
+          © 2022 All Riights Reserved By CansWeb
         </p>
       </div>
     </div>
