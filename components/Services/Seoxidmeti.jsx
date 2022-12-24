@@ -37,7 +37,7 @@ Bu sahədə təcrübəniz yoxdursa, <span className="underline text-[16px] font-
             <div
               className="p-4 "
             >
-              <div className="bg-primary rounded-3xl h-max w-[500px] m-auto hover:scale-100 cursor-pointer shadow_class transition-all">
+              <div className="bg-primary w-full sm:w-[500px] rounded-3xl h-max  m-auto hover:scale-100 cursor-pointer shadow_class transition-all">
                 <div className="px-6 py-3 text-white text-center">
                   <h4 className="text-xl font-semibold pb-4 text-center">
                     

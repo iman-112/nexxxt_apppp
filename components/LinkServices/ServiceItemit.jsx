@@ -13,7 +13,8 @@ const ServiceItemit = () => {
        </div>
         <div className='p-[25px] text-white ' >
            <h4 className='text-xl font-semibold pb-4 text-center'> İT / HardWare</h4>
-           <p className='text-[15px]'> İnformasiya texnologiyaları müasir həyatın bir hissəsi halına gəldikdə bu günə qədər müxtəlif biznes sahələrində biznes-proseslərin və idarəetmələrin təşkili üçün zəruri köməklik göstərilməlidir</p>  
+           <p className='text-[15px]'> Kompyuterlər  bir çox biznessin təməlini qoymaqdadır. Bu təməlin sağlam olması üçün kompyuterlərədə diqqət və vaxt ayrılmalıdır.
+           Əks halda onlar işinizə maneə törədə bilər. </p>  
            <div className='flex justify-between   items-center mt-4'>
            <button className='btn-primary '>
             <Link href="/xidmetler/it_xidmeti">

@@ -13,7 +13,7 @@ const ServiceItemSeo = () => {
        </div>
         <div className='p-[25px] text-white ' >
            <h4 className='text-xl font-semibold pb-4 text-center'> SEO</h4>
-           <p className='text-[15px]'> Axtarış motorunun optimallaşdırılması  saytların axtarış sistemlərində daha çox görünməsi üçün aparılır. Google və digər axtarış sistemlərində daha yaxşı mövqelərdə yerləşdirməklə ziyarətçi sayımızı artıra bilərik.</p>  
+           <p className='text-[15px]'> Axtarış motorunun optimallaşdırılması  saytların axtarış sistemlərində daha çox görünməsi üçün aparılır. Google və digər axtarış sistemlərində daha yaxşı mövqelərdə yerləşdirməklə ziyarətçi sayınızı artıra bilərik.</p>  
            <div className='flex justify-between   items-center mt-4'>
            <button className='btn-primary '>
             <Link href="/xidmetler/seo_xidmeti">

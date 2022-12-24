@@ -46,7 +46,7 @@ const Tech = () => {
     <div className="  mb-12 mt-12 container mx-auto p-4 scrollbar gap   bg-primary text-white rounded">
       <Title addClass="text-[30px]  text-center">
         {" "}
-       İstifadə edilən texnologiyalar
+       İstifadə edilən əsas texnologiyalar
       </Title>
       <div className=" ">
         <Slider {...settings}>

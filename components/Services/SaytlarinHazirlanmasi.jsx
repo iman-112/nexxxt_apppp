@@ -145,7 +145,7 @@ const SaytlarinHazirlanmasi = () => {
                       Müddət 15-30 gün
                     </span>
                     <span className="text-sm my-2 text-center font-bold ">
-                      2500 AZN - 3500 AZN
+                      2500 AZN - (?) AZN
                     </span>
                     <button className='btn-primary m-2 '>
                         <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" >

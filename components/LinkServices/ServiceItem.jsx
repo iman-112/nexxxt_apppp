@@ -13,7 +13,7 @@ const ServiceItem = () => {
        </div>
         <div className='p-[25px] text-white ' >
            <h4 className='text-xl font-semibold pb-4 text-center'> Web Sayt</h4>
-           <p className='text-[15px]'> Müasir freymvork və CMS-lərdən istifadə edərək, sürətli, kreativ, geniş-funksiyalı, bütün cihaz ekranlarına uyğunlaşan yüksək səviyyəli veb saytlar və veb tətbiqlər hazırlayırıq.</p>  
+           <p className='text-[15px]'> Müasir freymvork və CMS-lərdən istifadə edərək, sürətli, kreativ, geniş-funksiyalı, bütün cihaz ekranlarına uyğunlaşan yüksək səviyyəli , istəyinizə uyğun veb saytlar  hazırlayırıq.</p>  
            <div className='flex justify-between   items-center mt-4'>
            <button className='btn-primary '>
             <Link href="/xidmetler/sayt_xidmeti">
