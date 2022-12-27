@@ -5,20 +5,7 @@ export default function Document() {
   return (
     <Html lang="az-AZ">
       <Head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#0A2728" />
-        <tittle> Saytların Hazırlanması , saytların yığılması , sayt sifarişi , sayt yaradılması.</tittle>
-        <meta name="description" content="Veb Studio , saytların hazırlanması , saytların yığılması, sayt dizaynı , saytların yaradılması , texniki dəstək, it xidmətləri,seo , seo xidməti." />
-        <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <link rel="canonical" href="https://cansweb.online" />
-        <meta property="og:locale" content="az_AZ"/>
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Saytların hazırlanması, saytların yığılması, sayt sifarişi, sayt yaradılması." />
-        <meta property="og:description" content="Veb studio, saytların hazırlanması, saytların yığılması, sayt dizaynı, saytların yaradılması, texniki xidmət, it xidmətləri, seo, seo xidməti." />
-        <meta property="og:url" content="https://cansweb.online/" />
-        <meta property="og:site_name" content="cansweb.online"  />
-        
+       
 
 
 

@@ -8,14 +8,14 @@ export default function Index() {
   return (
     <div className="">
       <Head>
-        <title>İşinizə uyğun vebsaytlar  | CansWeb</title>
+        <title>İşinizə uyğun vebsaytların hazırlanması | CansWeb</title>
         <meta name="description" content="Biznesinizdə müştəri bazanızı böyütmək , Markanızı dahada iləri səviyyələrə qaldırmaq və ən əsasıda müştəri axtarışına yoxda müştərinin sizi axtarıb tapmasına səbəb yaradın. Bu platformda bu nəticəyə gəlmək dahada ilham vericidir." />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       
      <meta http-equiv="copyright" content="Copyright © 2023 CansWeb" />
       <meta http-equiv="content-language" content="az_AZ" />
       <meta name="title" content="İşinizə uyğun vebsaytlar  | CansWeb"/>
-      <meta name="keywords" content="Veb Sayt Hazirlanmasi , Seo xidmeti , veb sayt, cansweb" />
+      <meta name="keywords" content="Veb studio, saytların hazırlanması, saytların yığılması, sayt dizaynı, saytların yaradılması, texniki xidmət, it xidmətləri, seo, seo xidməti" />
       <meta name="description" lang="az_AZ" content="description "/>
       <meta name="googlebot" content="index, follow" />
       <meta name="revisit-after" content="1 Days" />

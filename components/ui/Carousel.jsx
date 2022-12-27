@@ -4,6 +4,7 @@ import Slider from "react-slick"
 import Link from "next/link"
 
 import {FaWhatsapp} from "react-icons/fa"
+import Image from "next/image";
 const Carousel = () => {
 
   const settings = {
@@ -22,9 +23,9 @@ const Carousel = () => {
     <div className="h-screen  w-full  -mt-[88px]">
       <div className="absolute top-0 left-0 w-full h-full ">
         <div className="relative h-full w-full ">
-          <img 
+          <Image 
             src="/images/vector.jpg"
-            alt=""
+            alt="CansWeb BG Photo"
             layout="fill"
             objectFit="cover"
             
