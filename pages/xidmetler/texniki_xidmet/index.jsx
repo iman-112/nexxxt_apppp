@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div>
     <Head>
-       <title>Web Saytlara Texniki Xidmet | CansWeb</title>
+       <title>Web Saytlara Texniki Xidmet Göstərilməsi| CansWeb</title>
        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
        <meta name="description"  content="Sizin əlinizdə olan veb saytlarda etmək istədiyiniz dəyişikliklər, əlavə etmək istədiyiniz xidmətlər və s. bu tipli dəyişiklikləri biz sizin üçün edirik."  />
        
