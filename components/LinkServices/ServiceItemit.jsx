@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import React from 'react'
 
 
 import Link from 'next/link'
@@ -8,7 +6,7 @@ const ServiceItemit = () => {
     <div className='bg-primary rounded-3xl '>
        <div className='w-full bg-white border-hover  h-[210px] grid place-content-center rounded-br-[40px] '> 
        <div className=' relative w-56 h-52 bg-white '>
-    <Image src="/images/it-image.png" alt=" "layout="fill"  className='hover:scale-125 transition-all cursor-pointer ' />
+    <img src="/images/it-image.png" alt=" "layout="fill"  className='hover:scale-125 transition-all cursor-pointer ' />
         </div>
        </div>
         <div className='p-[25px] text-white ' >

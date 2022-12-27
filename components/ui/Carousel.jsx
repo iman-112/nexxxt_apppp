@@ -1,5 +1,4 @@
-import Image from "next/image";
-import React from "react";
+
 import Title from "../ui/Title";
 import Slider from "react-slick"
 import Link from "next/link"
@@ -23,7 +22,7 @@ const Carousel = () => {
     <div className="h-screen  w-full  -mt-[88px]">
       <div className="absolute top-0 left-0 w-full h-full ">
         <div className="relative h-full w-full ">
-          <Image 
+          <img 
             src="/images/vector.jpg"
             alt=""
             layout="fill"
