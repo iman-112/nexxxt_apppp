@@ -43,7 +43,7 @@ const Customers = () => {
       <div className="p-6 bg-primary text-white rounded-[5px]">
       <span className="text-lg font-semibold">1.Addım</span>
         <p className="mt-4">
-         Müştərinin bizimlə əlaqəyə keçməsi  yaxud əlaqə yaratmaq istəyi ,qarşılıqlı ünsiyyətin yaradılaraq müştərinin istəyini tərəfimizdən aydınlaşdırmaq.
+         Müştərinin bizimlə əlaqəyə keçməsi  yaxud əlaqə yaratmaq istəyi ,qarşılıqlı ünsiyyətin yaradılaraq müştərinin istəyini tərəfimizdən aydınlaşdırmaq..
         </p>
      
      
