@@ -29,7 +29,7 @@ Bu sahədə təcrübəniz yoxdursa, <span className="underline text-[16px] font-
                 <li>
                   <Title addClass="text-[20px] text-primary p-4">
                     {" "}
-                    Qiymətlər aşağıdadır.
+                      <hr  />
                   </Title>
                 </li>
               </ul>
@@ -67,8 +67,8 @@ Bu sahədə təcrübəniz yoxdursa, <span className="underline text-[16px] font-
                     <span className="text-sm my-2 text-center font-bold ">
                       100 AZN - 300 AZN
                     </span>
-                    <button className='btn-primary m-2 w-max m-auto'>
-                        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" >
+                    <button className='btn-primary  w-max m-auto'>
+                        <Link href="https://wa.link/i09v8q" target="_blank" >
                         Sifariş
                         </Link>  </button>
                   </div>

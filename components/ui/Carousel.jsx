@@ -39,7 +39,7 @@ const Carousel = () => {
         <p className="text-sm sm:w-2/5 w-full">
          Rəqəmsal marketinqin günü gündən böyüdüyü və inkişaf  etdiyi bir zamanda onlayn qalmaq şərt halına gəldi. Bu yolda sizlərə  biznesiniz üçün daha çox sıxlıq , görünürlük və satış qazandıracağıq.
         </p>
-        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank">
+        <Link href="https://wa.link/easuav" target="_blank">
         <button className="btn-primary flex">
           
           Müraciət et</button>
@@ -52,7 +52,7 @@ const Carousel = () => {
         <p className="text-sm sm:w-2/5 w-full">
           Biznesinizdə müştəri bazanızı böyütmək , Markanızı dahada iləri səviyyələrə qaldırmaq və ən əsasıda müştəri axtarışına yoxda müştərinin sizi axtarıb tapmasına səbəb yaradın. Bu platformda bu nəticəyə gəlmək dahada ilham vericidir.
         </p>
-        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank">
+        <Link href="https://wa.link/easuav" target="_blank">
         <button className="btn-primary flex">
           
           Müraciət et</button>

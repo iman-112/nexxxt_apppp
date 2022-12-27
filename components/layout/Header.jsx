@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Logo from "../ui/Logo"
-import {FaUserAlt,FaShoppingCart ,FaSearch  } from "react-icons/fa"
+import {FaInfo} from "react-icons/fa"
 import Search from "../ui/Search"
 import { GiCancel, GiHamburgerMenu } from "react-icons/gi"
 import { useRouter } from "next/router"
@@ -48,9 +48,9 @@ const router = useRouter();
      
   
           <button onClick={() => setIsSearchModal(true)}>
-            <FaSearch className="hover:text-hover transition-all cursor-pointer"  />
+            <FaInfo className="hover:text-hover transition-all cursor-pointer" size={25} />
           </button>
-          <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" className="md:inline-block hidden ">
+          <Link href="https://wa.link/easuav" target="_blank" className="md:inline-block hidden ">
             <button className="btn-primary flex">
               
             Müraciət et</button>

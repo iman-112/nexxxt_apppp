@@ -53,7 +53,7 @@ const Texnikixidmet = () => {
                       50 AZN - (?) AZN
                     </span>
                     <button className='btn-primary m-2 w-max m-auto '>
-                        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" >
+                        <Link href="https://wa.link/yzxi0t" target="_blank" >
                         Sifariş
                         </Link>  </button>
                   </div>

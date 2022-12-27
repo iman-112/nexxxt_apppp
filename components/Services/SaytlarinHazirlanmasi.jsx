@@ -32,7 +32,7 @@ const SaytlarinHazirlanmasi = () => {
                 <li>
                   <Title addClass="text-[20px] text-primary p-4">
                     {" "}
-                    Qiymətlər aşağıdadır.
+                    Paketlər aşağıdadır.
                   </Title>
                 </li>
               </ul>
@@ -55,20 +55,20 @@ const SaytlarinHazirlanmasi = () => {
                     <ul className="list-disc ">
                       <li className="mb-2">SSL sertifikat</li>
                       <li className="mb-2">Korporativ email: 1 ədəd</li>
-                      <li className="mb-2"> Dil seçimi: 1-2 dildə</li>
+                      <li className="mb-2"> Dil seçimi: 1 dildə</li>
     
-                      <li className="mb-2"> Domain: Tərəfimizdən </li>
+                     
     
-                      <li className="mb-2"> Hosting: Tərəfimizdən</li>
+                      <li className="mb-2"> Hosting:  6ay  (50 GB SSD Saxlama)</li>
                     </ul>
                     <span className="text-sm my-2 italic text-center font-bold ">
                       Müddət 2-4 gün
                     </span>
                     <span className="text-sm my-2 text-center font-bold ">
-                      350 AZN - 650 AZN
+                      300 AZN - 600 AZN
                     </span>
                     <button className='btn-primary m-2 '>
-                        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" >
+                        <Link href="https://wa.link/he31ax" target="_blank" >
                         Sifariş
                         </Link>  </button>
                   </div>
@@ -82,35 +82,36 @@ const SaytlarinHazirlanmasi = () => {
                   </h4>
                   <p className="text-[14px]">
                     
-                    E-ticarət saytları üçün nəzərdə tutulub.
+                    E-ticarət  üçün nəzərdə tutulub.
                   </p>
                   <div className="flex  flex-col p-4 ">
                     <ul className="list-disc ">
                       <li className="mb-2">SSL sertifikat</li>
                       <li className="mb-2">Korporativ email: 5 ədəd</li>
-                      <li className="mb-2">  Dil seçimi: 2-3 dildə</li>
+                      <li className="mb-2">  Dil seçimi: 1-2 dildə</li>
     
                       <li className="mb-2"> Domain: Tərəfimizdən</li>
-    
+                      <li className="mb-2"> Hosting:  12ay
+                      (100 GB SSD Saxlama) </li>
+
                       <li className="mb-2"> Admin Panel: Var</li>
+                      <li className="mb-2"> Texniki dəstək: 3 ay</li>
     
-                      <li className="mb-2"> Hosting: Tərəfimizdən</li>
     
-    
-                      <li className="mb-2"> Logo hazırlanması</li>
+                      
     
                      
     
-                      <li className="mb-2"> Texniki dəstək: 2 ay</li>
+                    
                     </ul>
                     <span className="text-sm my-2 italic text-center font-bold ">
-                      Müddət 10-15 gün
+                      Müddət 5-10 gün
                     </span>
                     <span className="text-sm my-2 text-center font-bold ">
-                      1000 AZN - 1700 AZN
+                      1000 AZN - 1800 AZN
                     </span>
                     <button className='btn-primary m-2 '>
-                        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" >
+                        <Link href="https://wa.link/j9s8kp" target="_blank" >
                         Sifariş
                         </Link>  </button>
                   </div>
@@ -131,14 +132,14 @@ const SaytlarinHazirlanmasi = () => {
                     <ul className="list-disc ">
                       <li className="mb-2">SSL sertifikat</li>
                       <li className="mb-2">Korporativ email: 10 ədəd</li>
-                      <li className="mb-2"> Dil seçimi: 3-4 dildə</li>
+                      <li className="mb-2"> Dil seçimi: 2-3 dildə</li>
     
                       <li className="mb-2"> Domain: Tərəfimizdən</li>
-    
+                      <li className="mb-2"> Hosting: 12 Ay (200 GB SSD Saxlama)</li>
                       <li className="mb-2"> Admin panel: xüsusi / sıfırdan yığılır</li>
-                      <li className="mb-2"> Hosting: Tərəfimizdən</li>
+                      
                       <li className="mb-2">  Logo hazırlanması</li>
-                      <li className="mb-2"> Texniki SEO işləri</li>
+                      
                       <li className="mb-2"> Texniki dəstək: 12 ay</li>
                     </ul>
                     <span className="text-sm my-2 italic text-center font-bold ">
@@ -148,7 +149,7 @@ const SaytlarinHazirlanmasi = () => {
                       2500 AZN - (?) AZN
                     </span>
                     <button className='btn-primary m-2 '>
-                        <Link href="https://api.whatsapp.com/send?phone=994514334365&text=Salam%20.%20" target="_blank" >
+                        <Link href="https://wa.link/1ub7cy" target="_blank" >
                         Sifariş
                         </Link>  </button>
                   </div>
