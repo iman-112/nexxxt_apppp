@@ -1,7 +1,7 @@
 
 import Title from "../ui/Title";
 
-import Logo from "../ui/Logo";
+
 import Link from "next/link";
 
 
@@ -23,7 +23,7 @@ const Footer = () => {
               </div>
               <div>
                 <i className="fa fa-envelope"></i>
-                <span className="inline-block ml-2">iman.xelilov112@gmail.com</span>
+                <span className="inline-block ml-2">info@cansweb.online</span>
               </div>
             </div>
           </div>

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react'
 import OutsideClickHandler from 'react-outside-click-handler';
 import Title from "../ui/Title";
@@ -14,20 +13,20 @@ const Search = ({setIsSearchModal}) => {
     <div className="relative z-50 md:w-[600px] w-[370px] bg-white border p-10 rounded-3xl text-primary">
         <Title addClass="text-[40px] text-center text-primary p-5 text-primary"> Əlaqə</Title>
         <div className=" w-full flex flex-col h-max">
-        <Link href="/" className='text-center mb-2  rounded-md border-2 p-2 text-white hover:border-hover bg-primary  transition-all cursor pointer relative '>
+        <Link href="https://wa.link/to9owl" target="_blank" className='text-center mb-2  rounded-md border-2 p-2 text-white hover:border-hover bg-primary  transition-all cursor pointer relative '>
         
           <span className='text-[20px] sm:text-[25px] '> 
           <FaWhatsapp className='absolute bottom-3 left-1' /> 
           WhatsApp </span>
         </Link>
-        <Link href="/" className='text-center mb-2  rounded-md border-2 p-2 text-white hover:border-hover bg-primary  transition-all cursor pointer relative '>
+        <Link href="tel:+994514334365" target="_blank"  className='text-center mb-2  rounded-md border-2 p-2 text-white hover:border-hover bg-primary  transition-all cursor pointer relative '>
           <span className='text-[20px] sm:text-[25px] '>  
           <FiPhoneCall className='absolute bottom-3 left-1' /> Tel: 051-43343-65 </span>
         </Link>
-        <Link href="/" className='text-center mb-2  rounded-md border-2 p-2 text-white hover:border-hover bg-primary  transition-all cursor pointer relative '>
+        <Link href="mailto: info@cansweb.online" target="_blank"  className='text-center mb-2  rounded-md border-2 p-2 text-white hover:border-hover bg-primary  transition-all cursor pointer relative '>
           <span className='text-[20px] sm:text-[25px] '> 
           <FiMail className='absolute bottom-3 left-1' />  
-          canssweb@gmail.com</span>
+          info@cansweb.online</span>
         </Link>
        
         

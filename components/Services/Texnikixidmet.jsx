@@ -43,7 +43,7 @@ const Texnikixidmet = () => {
                   </p>
                   <div className="flex  flex-col p-4 ">
                     <ul className="list-disc ">
-                      <li className="mb-2 font-bold underline">Paketə sizin istəkləriniz daxildir.</li>
+                      <li className="mb-2 font-bold underline">Qiyməti dəqiqləşdirmək üçün zəhmət olmasa göstəriləcək xidməti bizə danışın.</li>
                  
                     </ul>
                     <span className="text-sm my-2 italic text-center font-bold ">

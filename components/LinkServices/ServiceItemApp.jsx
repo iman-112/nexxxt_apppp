@@ -6,7 +6,7 @@ const ServiceItemApp = () => {
   return (
     <div className='bg-primary rounded-3xl mb-6'>
        <div className='w-full bg-white border-hover  h-[210px] grid place-content-center rounded-br-[40px] '> 
-       <div className=' relative w-56 h-48 bg-white '>
+       <div className=' relative w-56 h-40  bg-white '>
     <Image src="/images/app-image.png" alt=" Saytlara Texniki Xidmət "layout="fill"  className='hover:scale-125 transition-all cursor-pointer ' />
         </div>
        </div>

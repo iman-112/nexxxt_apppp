@@ -52,11 +52,11 @@ const Customers = () => {
 </div>
 <div className="mx-2">
       <div className="mt-5 mx-2 xs:text-center ">
-      <div className="p-6 bg-primary h-[140px] text-white rounded-[5px]">
+      <div className="p-6 bg-primary  text-white rounded-[5px]">
       <span className="text-lg font-semibold">2.Addım</span>
         <p className="mt-4">
        
-Toplanılan məlumatlara əsasən plan hazırlanılır.
+Toplanılan məlumatlara əsasən plan hazırlanılır. Plan müştəriyə təqdim olunur müştərinin razılıqı ilə prayekt tərtibata yönləndirilir və işlənilir.
        
         </p>
      
@@ -66,10 +66,12 @@ Toplanılan məlumatlara əsasən plan hazırlanılır.
 </div> 
 <div className="mx-2 ">
       <div className="mt-5 mx-2 xs:text-center  ">
-      <div className="p-6 bg-primary h-[140px] text-white rounded-[5px]">
+      <div className="p-6 bg-primary text-white rounded-[5px]">
       <span className="text-lg font-semibold">3.Addim</span>
         <p className="mt-4">
-         Yaradılmış  planla məhsulun işlənməsi və müştəriyə təqdim edilməsi . Yekun müzakirə aparılması . Sifarışı tamamlamaq.
+         
+        Veb sayt hazır olur və 
+         müştəriyə təqdim edilir . Yekun müzakirə aparılır . Müştərinin işi uğurla sonlandırlır. Müştəri portfoilomuza əlavə edilir.
         </p>
      
      
