@@ -2,7 +2,7 @@ import Head from "next/head";
 import SEO from "@bradgarropy/next-seo"
 
 import Home from "./home";
-
+import Script from "next/script";
 export default function Index() {
   return (
     <>
@@ -15,6 +15,8 @@ export default function Index() {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
+  
+ 
       </Head>
 
       <Home />
