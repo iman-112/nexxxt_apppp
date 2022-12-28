@@ -52,7 +52,7 @@ const Texnikixidmet = () => {
                     <span className="text-sm my-2 text-center font-bold ">
                       50 AZN - (?) AZN
                     </span>
-                    <button className='btn-primary m-2 w-max m-auto '>
+                    <button className='btn-primary  w-max m-auto '>
                         <Link href="https://wa.link/yzxi0t" target="_blank" >
                         Sifariş
                         </Link>  </button>

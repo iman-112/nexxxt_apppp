@@ -6,9 +6,8 @@ import Home from "./home"
 export default function Index() {
 
   return (
-    <div className="">
+    <>
       <Head>
-        <title>İşinizə uyğun vebsaytların hazırlanması. | CansWeb</title>
         <meta name="description" content="Biznesinizdə müştəri bazanızı böyütmək , Markanızı dahada iləri səviyyələrə qaldırmaq və ən əsasıda müştəri axtarışına yoxda müştərinin sizi axtarıb tapmasına səbəb yaradın. Bu platformda bu nəticəyə gəlmək dahada ilham vericidir." />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       
@@ -45,6 +44,6 @@ export default function Index() {
       <Home />
      
 
-    </div>
+    </>
   )
 }

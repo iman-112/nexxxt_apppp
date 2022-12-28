@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#0A2728" />
-        <tittle>Saytların hazırlanması, saytların yığılması, sayt sifarişi, sayt yaradılması.</tittle>
+        
         <meta name="description" content="Biznesinizdə müştəri bazanızı böyütmək , Markanızı dahada iləri səviyyələrə qaldırmaq və ən əsasıda müştəri axtarışına yoxda müştərinin sizi axtarıb tapmasına səbəb yaradın. Bu platformda bu nəticəyə gəlmək dahada ilham vericidir." />
         <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <link rel="canonical" href="https://cansweb.online" />
